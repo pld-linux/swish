@@ -16,7 +16,7 @@ can index directories of files and search the generated indexes.
 %setup -q -n swish.11
 
 %build
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
