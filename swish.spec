@@ -32,7 +32,7 @@ install swish $RPM_BUILD_ROOT%{_bindir}
 
 gzip -9nf README CHANGES
 
-%clean 
+%clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
