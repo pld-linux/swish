@@ -5,8 +5,9 @@ Version:	1.1
 Release:	5
 License:	GPL
 Group:		Applications/Text
-Source0:	http://web.eit.com/software/swish/src/%{name}.11.tar.Z
-URL:		http://web.eit.com/software/swish/
+#Source0:	http://web.eit.com/software/swish/src/%{name}.11.tar.Z
+Source0:	%{name}.11.tar.Z
+URL:		http://hea-www.harvard.edu/swish.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
