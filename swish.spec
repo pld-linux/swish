@@ -6,7 +6,7 @@ Source: http://web.eit.com/software/swish/src/swish.11.tar.Z
 URL: http://web.eit.com/software/swish/
 Group: Utilities/Text
 Copyright: GPL
-Buildroot: /var/tmp/swish-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 SWISH stands for Simple Web Indexing System for Humans. With it, you 
