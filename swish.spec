@@ -30,12 +30,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 install swish $RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf README CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz CHANGES.gz sample.swish swish.conf test.html docs
+%doc README CHANGES sample.swish swish.conf test.html docs
 %attr(755,root,root) %{_bindir}/swish
