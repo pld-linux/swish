@@ -5,8 +5,6 @@ Version:	1.1
 Release:	5
 License:	GPL
 Group:		Applications/Text
-Group(de):	Applikationen/Text
-Group(pl):	Aplikacje/Tekst
 Source0:	http://web.eit.com/software/swish/src/%{name}.11.tar.Z
 URL:		http://web.eit.com/software/swish/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
