@@ -1,5 +1,5 @@
 Summary:	Simple Web Indexing System for Humans
-Summary(pl):	Prosty system indeksowania stron WWW
+Summary(pl.UTF-8):   Prosty system indeksowania stron WWW
 Name:		swish
 Version:	1.1
 Release:	5
@@ -14,10 +14,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 SWISH stands for Simple Web Indexing System for Humans. With it, you
 can index directories of files and search the generated indexes.
 
-%description -l pl
+%description -l pl.UTF-8
 SWISH (Simple Web Indexing System for Humans) to prosty system
-indeksowania stron WWW. Pozwala indeksowaæ katalogi plików i
-przeszukiwaæ wygenerowane indeksy.
+indeksowania stron WWW. Pozwala indeksowaÄ‡ katalogi plikÃ³w i
+przeszukiwaÄ‡ wygenerowane indeksy.
 
 %prep
 %setup -q -n swish.11
