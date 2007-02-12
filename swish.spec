@@ -1,5 +1,5 @@
 Summary:	Simple Web Indexing System for Humans
-Summary(pl.UTF-8):   Prosty system indeksowania stron WWW
+Summary(pl.UTF-8):	Prosty system indeksowania stron WWW
 Name:		swish
 Version:	1.1
 Release:	5
